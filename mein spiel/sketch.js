@@ -62,7 +62,7 @@ function setup() {
 /* - - Draw - - */
 function draw() {
 
-  background(0);
+  background(250);
 
 
   /* WEBCAM */
@@ -131,12 +131,12 @@ function draw() {
 
     // draw labels
     fill('blue');
-    textSize(letterSize);
+   /*  textSize(letterSize);
     text("nose", noseX + 20, noseY); // nose
     text("left shoulder", leftShoulderX + 20, leftShoulderY); // left shoulder
     text("right shoulder", rightShoulderX + 20, rightShoulderY); // right shoulder
     text("left hand", leftHandX + 20, leftHandY); // left hand
-    text("right hand", rightHandX + 20, rightHandY); // right hand
+    text("right hand", rightHandX + 20, rightHandY); // right hand */
 
     pop();
 
